@@ -1,0 +1,1 @@
+const average = (scores) => Math.round(scores.reduce((pv,cv) => pv += cv, 0) / scores.length);
