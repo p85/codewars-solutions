@@ -1,0 +1,1 @@
+const args = cmd => cmd.trim().split(/ ?(\||\;|\&|\>)+/g)[0].split(' ');
